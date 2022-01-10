@@ -11,6 +11,10 @@ public class GitFirst {
 			System.out.println("empName: saro");
 
 		}
+		public void empPin() {
+			System.out.println("empPin: 98876");
+
+		}
 		public static void main(String[] args) {
 			GitFirst g = new GitFirst();
 			g.empId();
