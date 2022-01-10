@@ -11,9 +11,14 @@ public class GitFirst {
 			System.out.println("empName: saro");
 
 		}
+		public void empAdd() {
+			
+			System.out.println("empAddress: chennai");
+		}
 		public static void main(String[] args) {
 			GitFirst g = new GitFirst();
 			g.empId();
 			g.empName();
+			g.empAdd();
 		}
 }
