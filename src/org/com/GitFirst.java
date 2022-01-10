@@ -11,6 +11,13 @@ public class GitFirst {
 			System.out.println("empName: saro");
 
 		}
+public void empAdd() {
+			
+			System.out.println("empAddress: chennai");
+		}
+		public void empPhn() {
+			System.out.println("empPhone: 9876543211");
+		}
 		public void empPin() {
 			System.out.println("empPin: 98876");
 
@@ -19,5 +26,6 @@ public class GitFirst {
 			GitFirst g = new GitFirst();
 			g.empId();
 			g.empName();
+			g.empAdd();
 		}
 }
